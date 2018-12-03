@@ -16,32 +16,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="52dp">
+        tools:layout_editor_absoluteY="52dp"
+        tools:ignore="MissingConstraints">
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_persiapan"
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:layout_marginBottom="28dp"
             android:text="Persiapan Sholat"
-            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintBottom_toTopOf="@+id/btn_rukun"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btn_rukun"
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:layout_marginBottom="28dp"
             android:text="Rukun Sholat"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintBottom_toTopOf="@+id/btn_exit"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.533"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btn_exit"
             android:layout_width="match_parent"
             android:layout_height="86dp"
             android:text="exit"
