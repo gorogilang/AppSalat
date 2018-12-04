@@ -19,7 +19,7 @@
         android:layout_marginHorizontal="50dp"
         android:fontFamily="sans-serif-condensed"
         android:maxWidth="200dp"
-        android:text="APLIKASI TUNTUNAN SHALAT"
+        android:text="TUNTUNAN SHALAT"
         android:textAlignment="center"
         android:textColor="#fd579678"
         android:textSize="40dp"
