@@ -6,15 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".Persiapan">
+    tools:context=".Rukun_Shalat">
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/list_persiapan">
+        android:id="@+id/list_rukun">
 
     </ListView>
-
-
 
 </android.support.constraint.ConstraintLayout>

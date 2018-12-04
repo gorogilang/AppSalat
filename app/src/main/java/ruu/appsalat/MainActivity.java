@@ -22,11 +22,20 @@ public class MainActivity extends AppCompatActivity {
         btn_rukun = (Button)findViewById(R.id.btn_rukun);
         btn_exit = (Button)findViewById(R.id.btn_exit);
 
-        // function tombol
+        // function tombol persiapan
         btn_persiapan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Persiapan.class);
+                Intent intent = new Intent(getBaseContext(),Persiapan.class);
+                startActivity(intent);
+            }
+        });
+
+        // function tombol rukun
+        btn_rukun.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getBaseContext(),Rukun_Shalat.class);
                 startActivity(intent);
             }
         });
